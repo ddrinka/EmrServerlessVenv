@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: emr-serverless-venv
+  IMAGE_NAME: ${{ github.repository_owner }}/emr-serverless-venv
 
 jobs:
   build-and-push-image:
